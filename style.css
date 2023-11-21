@@ -1,0 +1,87 @@
+body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {
+	margin:0;
+	padding:0;
+	border-width:0;
+}
+p.anonce {
+	color:#000000;
+	font-family:"Minion Pro", serif;
+	font-size:12px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.2;
+	margin-bottom:0;
+	margin-left:0;
+	margin-right:0;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+  text-align: center
+}
+span.text {
+	color:#ffffff;
+	font-size:18px;
+	font-variant:normal;
+	text-transform:uppercase;
+}
+span.text-2 {
+	color:#ffffff;
+	font-size:8px;
+	font-variant:normal;
+	text-transform:uppercase;
+}
+div.background-1 {
+	background-color:#b55468;
+    height: 40;
+}
+div.background-4 {
+	background-color:#b55468;
+    height: 305px;
+}
+div.background-2 {
+	background-color:#91001e;
+    height: 40px;
+}
+div.background-3 { 
+    background-color:#0000e3;
+	border-bottom-left-radius:12px;
+	border-bottom-right-radius:12px;
+	border-top-left-radius:12px;
+	border-top-right-radius:12px;
+    height: 25px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  color: blue;
+  gap:10px;
+  margin-left: 15%;
+  flex-basis: 25%
+  height: 200px;  
+}
+
+.item {
+    display: grid;
+  flex-basis: 25%; 
+  height: 200px; 
+  border:1px ; 
+  border-radius: 10px;
+}
+.pic{ border-radius: 10px;
+ object-fit: cover;
+        width: 100%;
+        height: 100%;}
+.bebra {
+  display: grid;
+  position: absolute;
+  flex-wrap: wrap;
+  color: blue;
+  gap:10px;
+}
